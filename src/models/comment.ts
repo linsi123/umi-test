@@ -9,7 +9,6 @@ const CommentModel: any = {
   },
   effects: {
     *add({ payload, seqId, resourceType }: any, { call, put, error }: any) {
-      console.log(payload);
       yield put({
         type: 'save',
         payload: {

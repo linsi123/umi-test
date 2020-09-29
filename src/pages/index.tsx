@@ -6,7 +6,6 @@ import List from '../components/List';
 
 export default () => {
   const commentList = useSelector((state: any) => state.comment.commentList);
-  console.log(commentList);
   return (
     <div className={styles.index}>
       <h1 className={styles.title}>回复中心</h1>
